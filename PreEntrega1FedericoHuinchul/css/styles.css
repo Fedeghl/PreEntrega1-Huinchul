@@ -1,0 +1,41 @@
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente principal de la página */
+    margin: 0; /* Elimina los márgenes predeterminados del navegador */
+    background-color: #f4f4f4; /* Define el color de fondo de la página */
+    color: #333; /* Define el color del texto */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #000000; /* Establece el color de fondo del encabezado */
+    color: white; /* Establece el color del texto dentro del encabezado */
+    padding: 1rem 0; /* Añade un espacio dentro del encabezado, arriba y abajo */
+}
+
+
+nav ul li a {
+    color: white; /* Establece el color del texto de los enlaces */
+    padding: 0.5rem 1rem; /* Añade espacio dentro de los enlaces */
+}
+button {
+    background-color: #000000; /* Establece el color de fondo del botón */
+    color: white; /* Establece el color del texto dentro del botón */
+    padding: 0.8rem 1.5rem; /* Añade espacio dentro del botón */
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 4px; /* Redondea las esquinas del botón */
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #000000; /* Establece el color de fondo del pie de página */
+    color: white; /* Establece el color del texto dentro del pie de página */
+    width: 100%; /* Hace que el pie de página ocupe todo el ancho de la página */
+    bottom: 0; /* Posiciona el pie de página en la parte inferior de la pantalla */
+}
+
+main img {
+    max-width: 5%; /* Limita el ancho máximo de las imágenes al 15% del contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes (alto ajustado automáticamente) */
+    margin: 1rem auto; /* Añade espacio alrededor de las imágenes y las centra */
+}
